@@ -1,12 +1,7 @@
 <?php
 
 class WPDbMigrations {
-    /*
-     *  First dbversion id.
-     */
-
-    private $DBVERSION = 10;
-
+	
     /*
      *  List of migrations
      */
@@ -35,7 +30,7 @@ class WPDbMigrations {
     /*
      *  Do nothing to these. Will set automatically.
      */
-    private $CHARSET_COLLATE, $DB_TABLE_PREFIX, $OPTION_NAME;
+    private $CHARSET_COLLATE, $DB_TABLE_PREFIX, $OPTION_NAME, $DBVERSION;
 
     /*
      * 
